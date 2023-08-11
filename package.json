@@ -1,0 +1,21 @@
+{
+  "name": "node-js-assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon node index.js",
+    "start:api": "node api.js",
+    "start:dev:api": "nodemon ./api-server/api.js"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
